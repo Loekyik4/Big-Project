@@ -1,0 +1,185 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background-image: url(projectbooks.png);
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  
+  .top-container {
+      background-color: #14164A;
+      position: absolute;
+      width: 100%;
+      height: 85px;
+      min-width: 100%;
+      overflow: auto;
+  }
+  
+  .top-navigation-right a {
+      display: flex;
+      gap: .5em;
+      align-items: center;
+      color: white;
+      font-family: jaldi;
+  }
+  
+  .top-navigation-links a {
+      text-decoration: none;
+      display: inline;
+      gap: .5em;
+      font-weight: normal;
+      padding: 27px;
+  }
+  
+  .top-navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .top-navigation-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+  }
+  
+  .top-navigation-links {
+      display: flex;
+      gap: .5em;
+  }
+  
+  .top-navigation-links a {
+      text-decoration: none;
+      display: flex;
+      gap: 1em;
+      
+  }
+  
+  .top-navigation-right {
+      display: flex;
+      gap: 1em;
+      align-items: center;
+  }
+  
+  .top-navigation-right a {
+      text-decoration: none;
+    
+  }
+  
+  .search-bar input{
+  display: flex;
+      width: 45px;
+      padding: 1em;
+      border-radius: 17px;
+  height: 2px;
+  }
+  
+  .top-search{
+   border-radius: 120px;
+      width: 35px;
+  padding: 10px;
+  height: 35px;
+  cursor: pointer;
+  }
+  
+  .img{
+      width: 15px;
+  }
+  
+  .img2{
+      width: 285px;
+      height: 100Spx;
+  }
+  
+
+
+.sign-in-form {
+
+    width: 375px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFEFE;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.input-box{
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.signin-btn{
+    background-color: black;
+    color: #fff;
+    border-radius: 30px;
+    width: 175px;
+    height: 41px;
+    cursor: pointer;
+}
+
+.account-btn{
+    background: #FFFEFE;
+border: 2px solid #000000;
+border-radius: 30px;
+width: 175px;
+height: 41px;
+cursor: pointer;
+}
+
+p {
+    font-size: 13px;
+    line-height: 10px;
+    text-align: left;
+}
+
+.terms{
+    text-align: center;
+}
+
+h1{
+    font-weight: bolder;
+
+font-size: 18px;
+line-height: 30px;
+}
+
+.sign-up{
+    font-weight: bolder;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .top-navigation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    
+    .search-bar {
+      margin: 10px 0;
+    
+    }
+    
+    .sign-in-form {
+      align-items: center;
+      flex-wrap: wrap;
+      display: block;
+      width: 200px;
+    }
+    .top-container{
+        display: none;
+    }
+    
+  }
+
+  
